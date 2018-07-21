@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="user_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Your Name" />
+    <ListPreference
+        android:defaultValue=".vcf"
+        android:entries="@array/file_type"
+        android:entryValues="@array/file_type_values"
+        android:key="file_type"
+        android:summary="VCF ot txt file"
+        android:title="Select type of file to share" />
+
+    <ListPreference
+        android:defaultValue="ascending_order"
+        android:entries="@array/sort_by"
+        android:entryValues="@array/sort_by_values"
+        android:key="sort_by"
+        android:summary="By Name"
+        android:title="Sort Contacts" />
+
+    <ListPreference
+        android:key="contacts_to_display"
+        android:summary="ALL, Mobile, SIM, WhatsApp, Google"
+        android:title="Select Contacts to Display" />
+        <!--
+        android:defaultValue="all"
+        android:entries="@array/contacts_to_display"
+        android:entryValues="@array/contacts_to_display_values"-->
+
+</PreferenceScreen>

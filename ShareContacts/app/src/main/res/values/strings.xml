@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Share Contacts</string>
+    <string name="settings_name">Settings</string>
+
+    <string-array name="file_type">
+        <item>VCF file</item>
+        <item>.txt file</item>
+    </string-array>
+    <string-array name="file_type_values">
+        <item>.vcf</item>
+        <item>.txt</item>
+    </string-array>
+
+    <string-array name="sort_by">
+        <item>Name: Ascending</item>
+        <item>Name: Descending</item>
+    </string-array>
+    <string-array name="sort_by_values">
+        <item>ascending_order</item>
+        <item>descending_order</item>
+    </string-array>
+
+    <!--
+    <string-array name="contacts_to_display">
+        <item>All</item>
+        <item>Mobile</item>
+        <item>SIM</item>
+        <item>WhatsApp</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="contacts_to_display_values">
+        <item>all</item>
+        <item>mobile</item>
+        <item>sim</item>
+        <item>whatsapp</item>
+        <item>google</item>
+    </string-array>
+    -->
+</resources>
